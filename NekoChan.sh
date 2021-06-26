@@ -47,7 +47,7 @@ if [[ $chose == 1 ]];
 
 elif [[ $chose == 2 ]];
      then
-     adb shell input keyevent 26 #press
+     adb shell input keyevent 26 
      adb shell input keyevent 82
          echo "Your list : " ls *txt
          echo " "
