@@ -14,7 +14,7 @@ clear
 
 function balik() {
     clear
-    balik=$(pwd)/'brut.sh'
+    balik=$(pwd)/'NekoChan.sh'
     bash $balik
 }
 
